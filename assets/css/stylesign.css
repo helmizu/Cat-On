@@ -1,0 +1,249 @@
+
+.body{
+    background-color: #f0f0f0;
+}
+
+.form1 h3, .form2 h3{
+    color: #57cd9a;
+    font-weight: bold;
+}
+
+.judul{
+    text-align: center;
+    margin: 0 auto;
+    color: #57cd9a;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.navigator{
+    background-color: #57cd9a;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+    padding: 40px;
+}
+
+.form1{
+    display: block;
+}
+
+
+.form1, .form2{
+    background-color: #fff;
+    border-radius: 0 10px 10px 0;
+    padding: 40px;
+}
+
+.form2{
+    display: none;
+}
+
+.box-form{
+    margin-top: 50px;
+    height: auto;
+}
+
+.isianForm{
+    margin-top: 30px;
+}
+
+.isianForm p:nth-of-type(even){
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.isianForm p:nth-of-type(odd){
+    color: #cfcfcf;
+    font-weight: bolder;
+}
+
+input[type=text]{
+    border: none;
+    border-bottom: 3px solid #cfcfcf;
+    width: 100%;
+    color: #828080;
+    background-color: transparent;
+}
+
+input[type=password]{
+    border: none;
+    border-bottom: 3px solid #cfcfcf;
+    width: 100%;
+    color: #828080;
+    background-color: transparent;
+}
+
+input:focus{
+    outline: none;
+}
+
+.ijo{
+    background-color: #31bf82;
+    border-color: transparent;
+}
+
+.up{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    display: block;
+}
+
+.down{
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    display: block;
+}
+
+.right{
+    color: white;
+    display: none;
+    clear: both;
+    position: absolute;
+    right: 10%;
+}
+
+.left{
+    color: white;
+    display: none;
+    clear: both;
+}
+
+
+
+/*LOGIN*/
+
+
+.kiri{
+    background-color: #4ab185;
+    height: 100vh;
+}
+
+.kanan{
+    background-color: #57cd9a;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo:hover{
+    text-decoration: none;
+    color: White;
+}
+
+.salam{
+    margin-top: 20%;
+}
+
+.headline{
+    color: white;
+    font-family: "Myriad Pro";
+    font-weight: 600;
+}
+
+.paragraph{
+    font-family: "Myriad Pro";
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.signIn{
+    color: white;
+}
+
+.formSign{
+    margin-top: 55%;
+}
+
+.formSign input[type=password]{
+    margin-top : 10px;
+}
+
+.formSign input[type=text]{
+    border: none;
+    border-bottom: 3px solid #85ffca;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+}
+
+.formSign input::-webkit-input-placeholder{
+    color: white;
+}
+
+.formSign input[type=password]{
+    border: none;
+    border-bottom: 3px solid #85ffca;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+}
+
+.hijau{
+    background-color: #4ab185;
+    border-color: transparent;
+}
+
+
+.btn-successku {
+    color: #fff;
+    background-color: #4ab185;
+    border-color: #4ab185;
+}
+
+
+@font-face{
+    font-family: "Myriad Pro";
+    src: url("../fonts/MyriadPro-Regular.otf");
+}
+
+
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+
+.up{
+    display: none;
+} 
+
+.down{
+    display: none;
+}
+
+.right{
+    display: block;
+}
+
+.left{
+    display: block;
+}
+
+.navigator{
+    padding: 40px;
+}
+
+.kiri{
+}
+
+.kanan{
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.formSign{
+    margin-top: 50px;
+}
+
+
+
+}
